@@ -9,7 +9,7 @@
     $method=$_SERVER['REQUEST_METHOD'];
     //* Process HTTP GET Request
     if($method=='GET'){
-        include "views/contactAdd-view.php";
+        include "views/contactDelete-view.php";
     }
     
     //* Process HTTP POST Request
@@ -34,4 +34,5 @@
             error_reporting(E_ALL);
         }
     }
+
 ?>
